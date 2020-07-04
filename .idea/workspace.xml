@@ -10,44 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a888ff17-58e1-4e0b-9758-acf7ce978862" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_3_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/ActivityFlash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_border_text.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_gradient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_corners.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_top_grey.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_pink.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_right.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_flash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/Information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/ModelQrcode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/APIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/UserClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +38,9 @@
       <list>
         <option value="valueResourceFile" />
         <option value="layoutResourceFile" />
-        <option value="Class" />
         <option value="Kotlin File" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -194,10 +160,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="478" y="32" key="#com.intellij.ide.util.MemberChooser" timestamp="1593444484574">
+    <state x="478" y="32" key="#com.intellij.ide.util.MemberChooser" timestamp="1593860404181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="32" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593444484574" />
+    <state x="478" y="32" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593860404181" />
     <state x="488" y="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1593439171202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -210,38 +176,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="453" y="103" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593445198275" />
-    <state width="1286" height="201" key="GridCell.Tab.0.bottom" timestamp="1593852810571">
+    <state width="1286" height="201" key="GridCell.Tab.0.bottom" timestamp="1593860740545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593852810571" />
-    <state width="1286" height="201" key="GridCell.Tab.0.center" timestamp="1593852810571">
+    <state width="1286" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
+    <state width="1286" height="201" key="GridCell.Tab.0.center" timestamp="1593860740545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593852810571" />
-    <state width="1286" height="201" key="GridCell.Tab.0.left" timestamp="1593852810570">
+    <state width="1286" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
+    <state width="1286" height="201" key="GridCell.Tab.0.left" timestamp="1593860740544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593852810570" />
-    <state width="1286" height="201" key="GridCell.Tab.0.right" timestamp="1593852810571">
+    <state width="1286" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593860740544" />
+    <state width="1286" height="201" key="GridCell.Tab.0.right" timestamp="1593860740545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593852810571" />
-    <state width="1286" height="201" key="GridCell.Tab.1.bottom" timestamp="1593852830407">
+    <state width="1286" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
+    <state width="1286" height="201" key="GridCell.Tab.1.bottom" timestamp="1593860740546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593852830407" />
-    <state width="1286" height="201" key="GridCell.Tab.1.center" timestamp="1593852830407">
+    <state width="1286" height="201" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593860740546" />
+    <state width="1286" height="201" key="GridCell.Tab.1.center" timestamp="1593860740545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593852830407" />
-    <state width="1286" height="201" key="GridCell.Tab.1.left" timestamp="1593852830407">
+    <state width="1286" height="201" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
+    <state width="1286" height="201" key="GridCell.Tab.1.left" timestamp="1593860740545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593852830407" />
-    <state width="1286" height="201" key="GridCell.Tab.1.right" timestamp="1593852830407">
+    <state width="1286" height="201" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
+    <state width="1286" height="201" key="GridCell.Tab.1.right" timestamp="1593860740545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593852830407" />
+    <state width="1286" height="201" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
     <state x="489" y="126" key="chooseDestDirectoryDialog" timestamp="1593851678924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
