@@ -67,31 +67,6 @@ public class MainActivity extends AppCompatActivity {
                 //Toast.makeText(this, "Failed ", Toast.LENGTH_SHORT).show();
             }
         });
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                if(!editText.getText().toString().isEmpty()){
-                    EditTextValue = editText.getText().toString();
-
-                    try {
-                        bitmap = TextToImageEncode(EditTextValue);
-
-                        imageView.setImageBitmap(bitmap);
-
-                    } catch (WriterException e) {
-                        e.printStackTrace();
-                    }
-                }
-                else{
-                    editText.requestFocus();
-                    Toast.makeText(MainActivity.this, "Please Enter Your Scanned Test" , Toast.LENGTH_LONG).show();
-                }
-
-            }
-        });
-
-
         btnScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -163,5 +138,10 @@ public class MainActivity extends AppCompatActivity {
             // This is important, otherwise the result will not be passed to the fragment
             super.onActivityResult(requestCode, resultCode, data);
         }
+    }
+    public void onProfile(View view) {
+       Intent intent = new Intent(this, Profile.class);
+       startActivity(intent);
+
     }
 }

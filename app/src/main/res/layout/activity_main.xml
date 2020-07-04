@@ -18,22 +18,15 @@ tools:context="com.example.enamul.qrcode.MainActivity">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ABC" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:hint="Enter Text Here" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:layout_below="@+id/editText"
-        android:text="Click Here TO generate qr code"
+        android:text="Profile"
         android:textAllCaps="false"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:onClick="onProfile"/>
 
 
     <Button

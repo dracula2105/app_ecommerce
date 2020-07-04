@@ -42,23 +42,19 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         nameText = findViewById(R.id.name);
         passText = findViewById(R.id.password);
-        relativeLayout = (RelativeLayout) findViewById(R.id.RelativeLayout);
         responseText = findViewById(R.id.response);;
         buttonSign = findViewById(R.id.button);
         buttonLog = findViewById(R.id.log);
 
     }
 
-    private void makeString() {
-        name = nameText.getText().toString();
-        password = passText.getText().toString();
-    }
 
 
     private void login()  {
         Retrofit retrofit = APIClient.getClient();
         UserClient client = retrofit.create(UserClient.class);
-        User u = new User("tri@gmail.com","admin");
+     //   User u = new User("tri@gmail.com","admin");
+        User u = new User(username,userPassword);
         Call<ResponseLogin> call = client.login(u);
         call.enqueue(new Callback<ResponseLogin>() {
             @Override
