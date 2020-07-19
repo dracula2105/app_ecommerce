@@ -14,44 +14,127 @@ tools:context="com.example.enamul.qrcode.MainActivity">
 
 
     <TextView
-        android:id="@+id/txtName"
+    android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        style="@style/ButtonPink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ABC" />
-    <Button
-        android:id="@+id/button"
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/editText"
-        android:text="Profile"
-        android:textAllCaps="false"
-        android:textSize="16sp"
+        android:layout_below="@+id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_rounded_corners"
+        android:text="Xem thông tin cá nhân"
+        android:textAppearance="@style/ExtraLight"
         android:onClick="onProfile"/>
 
 
     <Button
         android:id="@+id/btnScan"
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/editText"
-        android:text="Scan Your QR Code"
-        android:textAllCaps="false"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/tv_qr_readTxt"
+        style="@style/ButtonPink"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/button"
-        android:src="@android:drawable/ic_dialog_email" />
-
-
-</LinearLayout>
-
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_rounded_corners_1"
+        android:text="Scan Qr Code"
+        android:textAppearance="@style/ExtraLight"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_idOder"
+        android:layout_below="@id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Thông tin đơn hàng"
+     />
+    <TextView
+        android:id="@+id/tv_qr_username"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_qr_totalPrice"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_qr_bank"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_qr_product"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_qr_timeOrder"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnOrder"
+        style="@style/ButtonPink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_qr_timeOrder"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_rounded_corners"
+        android:text="Thanh toán"
+        android:textAppearance="@style/ExtraLight"
+        android:onClick="getBank"/>
+    <Button
+        android:id="@+id/btnOrderCheck"
+        style="@style/ButtonPink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_qr_timeOrder"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_rounded_corners"
+        android:text="Đã Thanh toán"
+        android:textAppearance="@style/ExtraLight"
+       />
+    </LinearLayout>
 </LinearLayout>

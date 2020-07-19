@@ -1,9 +1,25 @@
 package com.example.enamul.model;
 
+import java.util.Date;
+import java.util.List;
+
 public class ModelQrcode {
+    private Long idOrder;
+
+    public Long getIdOrder() {
+        return idOrder;
+    }
+
+    public void setIdOrder(Long idOrder) {
+        this.idOrder = idOrder;
+    }
+
     private String username;
-    private Long money;
-    private String email;
+    private Long totalPrice;
+    private boolean bank;
+    private String address;
+    private List<String> product;
+    private Date timeOrder;
 
     public String getUsername() {
         return username;
@@ -13,29 +29,43 @@ public class ModelQrcode {
         this.username = username;
     }
 
-    public Long getMoney() {
-        return money;
+    public Long getTotalPrice() {
+        return totalPrice;
     }
 
-    public void setMoney(Long money) {
-        this.money = money;
+    public void setTotalPrice(Long totalPrice) {
+        this.totalPrice = totalPrice;
     }
 
-    public String getEmail() {
-        return email;
+    public boolean isBank() {
+        return bank;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setBank(boolean bank) {
+        this.bank = bank;
     }
 
-    public String getImagePath() {
-        return imagePath;
+    public String getAddress() {
+        return address;
     }
 
-    public void setImagePath(String imagePath) {
-        this.imagePath = imagePath;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    private String imagePath;
+    public List<String> getProduct() {
+        return product;
+    }
+
+    public void setProduct(List<String> product) {
+        this.product = product;
+    }
+
+    public Date getTimeOrder() {
+        return timeOrder;
+    }
+
+    public void setTimeOrder(Date timeOrder) {
+        this.timeOrder = timeOrder;
+    }
 }

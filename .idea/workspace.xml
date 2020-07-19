@@ -10,10 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a888ff17-58e1-4e0b-9758-acf7ce978862" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/Information.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/ModelQrcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_corners_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/ModelQrcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/ModelQrcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/APIClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +82,11 @@
     <key name="android.template.-508254982">
       <recent name="com.example.enamul.qrcode" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Project\app_ecommerce\app\src\main\res\drawable" />
-    </key>
     <key name="android.template.-1456956349">
       <recent name="com.example.enamul.qrcode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\app_ecommerce\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -160,10 +177,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="478" y="32" key="#com.intellij.ide.util.MemberChooser" timestamp="1593860404181">
+    <state x="478" y="32" key="#com.intellij.ide.util.MemberChooser" timestamp="1595156527481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="32" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593860404181" />
+    <state x="478" y="32" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595156527481" />
+    <state x="455" y="206" width="438" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595158605074">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="455" y="206" width="438" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1595158605074" />
     <state x="488" y="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1593439171202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -176,38 +197,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="453" y="103" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593445198275" />
-    <state width="1286" height="201" key="GridCell.Tab.0.bottom" timestamp="1593860740545">
+    <state width="1286" height="201" key="GridCell.Tab.0.bottom" timestamp="1595155033632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
-    <state width="1286" height="201" key="GridCell.Tab.0.center" timestamp="1593860740545">
+    <state width="1286" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595155033632" />
+    <state width="1286" height="201" key="GridCell.Tab.0.center" timestamp="1595155033632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
-    <state width="1286" height="201" key="GridCell.Tab.0.left" timestamp="1593860740544">
+    <state width="1286" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595155033632" />
+    <state width="1286" height="201" key="GridCell.Tab.0.left" timestamp="1595155033631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593860740544" />
-    <state width="1286" height="201" key="GridCell.Tab.0.right" timestamp="1593860740545">
+    <state width="1286" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595155033631" />
+    <state width="1286" height="201" key="GridCell.Tab.0.right" timestamp="1595155033632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
-    <state width="1286" height="201" key="GridCell.Tab.1.bottom" timestamp="1593860740546">
+    <state width="1286" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595155033632" />
+    <state width="1286" height="201" key="GridCell.Tab.1.bottom" timestamp="1595155033634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593860740546" />
-    <state width="1286" height="201" key="GridCell.Tab.1.center" timestamp="1593860740545">
+    <state width="1286" height="201" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595155033634" />
+    <state width="1286" height="201" key="GridCell.Tab.1.center" timestamp="1595155033633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
-    <state width="1286" height="201" key="GridCell.Tab.1.left" timestamp="1593860740545">
+    <state width="1286" height="201" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595155033633" />
+    <state width="1286" height="201" key="GridCell.Tab.1.left" timestamp="1595155033632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
-    <state width="1286" height="201" key="GridCell.Tab.1.right" timestamp="1593860740545">
+    <state width="1286" height="201" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595155033632" />
+    <state width="1286" height="201" key="GridCell.Tab.1.right" timestamp="1595155033634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593860740545" />
+    <state width="1286" height="201" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595155033634" />
     <state x="489" y="126" key="chooseDestDirectoryDialog" timestamp="1593851678924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -216,38 +237,68 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="100" y="104" width="1146" height="488" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1593095885482" />
-    <state x="369" y="172" key="com.intellij.ide.util.TipDialog" timestamp="1593849133711">
+    <state x="369" y="172" key="com.intellij.ide.util.TipDialog" timestamp="1595148908522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="369" y="172" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593849133711" />
+    <state x="369" y="172" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595148908522" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java</url>
-          <line>50</line>
+          <line>48</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java</url>
-          <line>86</line>
+          <line>78</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java</url>
-          <line>114</line>
+          <line>106</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java</url>
-          <line>62</line>
+          <line>60</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java</url>
-          <line>120</line>
+          <line>112</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

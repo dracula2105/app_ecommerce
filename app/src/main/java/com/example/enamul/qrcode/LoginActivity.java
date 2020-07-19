@@ -28,7 +28,6 @@ public class LoginActivity extends AppCompatActivity {
     public EditText nameText, passText;
     public String name, password, fullResponse, username, userPassword;
     RelativeLayout relativeLayout, signUPLayout, loginLayout;
-    public TextView responseText;
     public Button buttonSign, buttonLog;
 
     public static final String MY_PREFRENCE = "myPrefs";
@@ -42,7 +41,6 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         nameText = findViewById(R.id.name);
         passText = findViewById(R.id.password);
-        responseText = findViewById(R.id.response);;
         buttonSign = findViewById(R.id.button);
         buttonLog = findViewById(R.id.log);
 
@@ -64,12 +62,6 @@ public class LoginActivity extends AppCompatActivity {
 
                     ResponseLogin data = response.body();
                     String userToken = data.getAccessToken();
-                    if (responseText.getVisibility() == View.INVISIBLE) {
-                        responseText.setVisibility(View.VISIBLE);
-                        responseText.setText(userToken);
-                    } else {
-                        responseText.setText(userToken);
-                    }
                     SharedPreferences sharedPreferences = getSharedPreferences(MY_PREFRENCE, context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString(TOKEN, userToken);

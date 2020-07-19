@@ -16,11 +16,8 @@ import retrofit2.http.POST;
 import retrofit2.http.Query;
 
 public interface UserClient {
-//    @POST("user")
-//    Call<User> postDetails(@Body User post);
-//    @GET("todos/1")
-//    Call<String> get();
-    @POST("auth/login")
+
+    @POST("auth/login1")
     Call<ResponseLogin> login(@Body User user);
 //
 //    @PUT("userlog")
@@ -38,5 +35,7 @@ public interface UserClient {
 
     @GET("app/bank")
     Call<Boolean> getBank(@Header("Authorization") String token, @Query("idOrder") Long idOrder);
+    @GET("app/sendmoney")
+    Call<Boolean> sendMoney(@Header("Authorization") String token, @Query("code") String code);
     
 }
