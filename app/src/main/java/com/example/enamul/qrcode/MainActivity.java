@@ -187,9 +187,11 @@ public class MainActivity extends AppCompatActivity {
                 txt_name.setVisibility(View.VISIBLE);
                 if(modelQrcode.isBank() ==false){
                     btnOrder.setVisibility(View.VISIBLE);
+                    btnOrderCheck.setVisibility(View.GONE);
                 }
                 else {
                     btnOrderCheck.setVisibility(View.VISIBLE);
+                    btnOrder.setVisibility(View.GONE);
                 }
 
             }
@@ -213,10 +215,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<Boolean> call, retrofit2.Response<Boolean> response) {
 
-                Toast.makeText(MainActivity.this, "Đơn hàng đã được thanh toán thành công. Vui lòng check mail để xem chi tiết.",
-                        Toast.LENGTH_LONG).show();
-                btnOrder.setVisibility(View.GONE);
-                btnOrderCheck.setVisibility(View.VISIBLE);
+                boolean check = response.body();
+                if(check){
+                    Toast.makeText(MainActivity.this, "Đơn hàng đã được thanh toán thành công. Vui lòng check mail để xem chi tiết.",
+                            Toast.LENGTH_LONG).show();
+                    btnOrder.setVisibility(View.GONE);
+                    btnOrderCheck.setVisibility(View.VISIBLE);
+                }
+                else {
+                    Toast.makeText(MainActivity.this, "Tài khoản của bạn không đủ để thanh toán đơn hàng. Vui lòng nạp thêm tiền vào tài khoản.",
+                            Toast.LENGTH_LONG).show();
+                }
 
             }
             @Override

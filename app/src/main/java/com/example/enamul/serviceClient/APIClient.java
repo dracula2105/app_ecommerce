@@ -5,7 +5,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class APIClient {
-    private static final String BASE_URL = "http://192.168.1.96:8080"; //use IpV4 WiF2 use laptop and smartphone
+    private static final String BASE_URL = "http://192.168.1.244:8081"; //use IpV4 WiF2 use laptop and smartphone
 
     private static Retrofit retrofit = null;
 

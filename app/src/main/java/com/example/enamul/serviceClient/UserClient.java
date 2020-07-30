@@ -17,7 +17,7 @@ import retrofit2.http.Query;
 
 public interface UserClient {
 
-    @POST("auth/login1")
+    @POST("auth/login")
     Call<ResponseLogin> login(@Body User user);
 //
 //    @PUT("userlog")

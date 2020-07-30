@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a888ff17-58e1-4e0b-9758-acf7ce978862" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_corners_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_corners_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -19,18 +19,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/Information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/ModelQrcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/model/ModelQrcode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/LoginActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/qrcode/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/APIClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/enamul/serviceClient/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +75,11 @@
     <key name="android.template.-508254982">
       <recent name="com.example.enamul.qrcode" />
     </key>
-    <key name="android.template.-1456956349">
-      <recent name="com.example.enamul.qrcode" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\app_ecommerce\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-1456956349">
+      <recent name="com.example.enamul.qrcode" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -197,22 +190,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="453" y="103" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593445198275" />
-    <state width="1286" height="201" key="GridCell.Tab.0.bottom" timestamp="1595155033632">
+    <state width="1286" height="324" key="GridCell.Tab.0.bottom" timestamp="1596128998911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595155033632" />
-    <state width="1286" height="201" key="GridCell.Tab.0.center" timestamp="1595155033632">
+    <state width="1286" height="324" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596128998911" />
+    <state width="1286" height="324" key="GridCell.Tab.0.center" timestamp="1596128998910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595155033632" />
-    <state width="1286" height="201" key="GridCell.Tab.0.left" timestamp="1595155033631">
+    <state width="1286" height="324" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596128998910" />
+    <state width="1286" height="324" key="GridCell.Tab.0.left" timestamp="1596128998910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595155033631" />
-    <state width="1286" height="201" key="GridCell.Tab.0.right" timestamp="1595155033632">
+    <state width="1286" height="324" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596128998910" />
+    <state width="1286" height="324" key="GridCell.Tab.0.right" timestamp="1596128998911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595155033632" />
+    <state width="1286" height="324" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596128998911" />
     <state width="1286" height="201" key="GridCell.Tab.1.bottom" timestamp="1595155033634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -237,10 +230,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="100" y="104" width="1146" height="488" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1593095885482" />
-    <state x="369" y="172" key="com.intellij.ide.util.TipDialog" timestamp="1595148908522">
+    <state x="369" y="172" key="com.intellij.ide.util.TipDialog" timestamp="1596128522306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="369" y="172" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595148908522" />
+    <state x="369" y="172" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596128522306" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
